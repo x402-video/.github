@@ -5,6 +5,8 @@
 No accounts, no API keys, no credit cards: `HTTP 402 → pay USDC on Base → generate`.
 Built for developers and autonomous agents.
 
+**[x402-video.com](https://x402-video.com)** · [llms.txt for agents](https://api.x402-video.com/llms.txt) · [live status](https://api.x402-video.com/status) · [pricing & SKUs](https://api.x402-video.com/)
+
 ## How it works
 
 ```
@@ -21,7 +23,7 @@ GET  /jobs/:id                (free)     → status → video_url (24h)
 
 | Repo | What |
 |---|---|
-| [web](https://github.com/x402-video/web) | Public storefront + `llms.txt` + buyer examples |
+| [web](https://github.com/x402-video/web) | Public storefront + `llms.txt` + buyer examples → [x402-video.com](https://x402-video.com) |
 | gateway | The payment + generation gateway (private) |
 
 ---
