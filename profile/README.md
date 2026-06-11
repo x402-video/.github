@@ -23,6 +23,7 @@ GET  /jobs/:id                (free)     → status → video_url (24h)
 
 | Repo | What |
 |---|---|
+| [mcp](https://github.com/x402-video/mcp) | MCP server — `npx -y x402-video-mcp` gives any agent pay-per-call video |
 | [web](https://github.com/x402-video/web) | Public storefront + `llms.txt` + buyer examples → [x402-video.com](https://x402-video.com) |
 | gateway | The payment + generation gateway (private) |
 
