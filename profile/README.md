@@ -1,11 +1,11 @@
-# x402-video.com
+# x402video.com
 
 **Pay-per-call AI video generation over the [x402 payment protocol](https://docs.x402.org).**
 
 No accounts, no API keys, no credit cards: `HTTP 402 → pay USDC on Base → generate`.
 Built for developers and autonomous agents.
 
-**[x402-video.com](https://x402-video.com)** · [llms.txt for agents](https://api.x402-video.com/llms.txt) · [live status](https://api.x402-video.com/status) · [pricing & SKUs](https://api.x402-video.com/)
+**[x402video.com](https://x402video.com)** · [llms.txt for agents](https://api.x402video.com/llms.txt) · [live status](https://api.x402video.com/status) · [pricing & SKUs](https://api.x402video.com/)
 
 ## How it works
 
@@ -24,7 +24,7 @@ GET  /jobs/:id                (free)     → status → video_url (24h)
 | Repo | What |
 |---|---|
 | [mcp](https://github.com/x402-video/mcp) | MCP server — `npx -y x402-video-mcp` gives any agent pay-per-call video |
-| [web](https://github.com/x402-video/web) | Public storefront + `llms.txt` + buyer examples → [x402-video.com](https://x402-video.com) |
+| [web](https://github.com/x402-video/web) | Public storefront + `llms.txt` + buyer examples → [x402video.com](https://x402video.com) |
 | gateway | The payment + generation gateway (private) |
 
 ---
